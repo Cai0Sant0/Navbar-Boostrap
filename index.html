@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+</head>
+
+<body>
+
+    <!--Link do video-->
+    <!--https://www.youtube.com/watch?v=ZZ0gvY-4IKA-->
+
+    <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow">
+        <div class="container px-4">
+            <img src="img/logo.png" alt="logo ex">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#top-navbar" aria-controls="top-navbar">
+                <i class="lni lni-grid-alt"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+                <!--Navigation Bar Content-->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#top-navbar" aria-controls="top-navbar">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="img/logo.png" alt="logo">
+                        <i class="lni lni-cross-circle"></i>
+                    </div>
+                </button>
+                <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Team</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Princing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a href="#" class="nav-link">Company</a>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a href="#" class="nav-link">blog</a>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="welcome" class="py-5">
+        <div class="container px-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="py-2 text-center fw-bold">Boostrap 5 Navbar</h1>
+                </div>
+                <div class="col-md-12 px-lg-0">
+                    <div class="welcome-description mt-4 text-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis voluptas nulla
+                            iure, vel unde alias nam nesciunt earum nobis officiis asperiores cum enim distinctio
+                            voluptatibus quam? Asperiores, eos saepe!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium similique saepe facilis
+                            magni fugiat voluptas, laudantium commodi ex odit. Amet expedita exercitationem odio eum
+                            eligendi modi. Ad, tempore! Delectus, placeat?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quo consequuntur ab sequi?
+                            Soluta deserunt nemo obcaecati, aperiam porro iure iste quibusdam recusandae laudantium
+                            consectetur assumenda magnam minima fuga non.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
